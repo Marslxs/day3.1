@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <meta name="keywords" content="礼来中国,礼品销售">
+        <meta name=description content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telphone=no, email=no">
+        <title>无标题文档</title>
+        <link rel="stylesheet" type="text/css" href="src/css/swiper.css">
+</head>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        list-style:none;
+    }
+    html,body{
+        width: 100%;
+        height:100%;
+        overflow-x:hidden;
+
+    }
+    .header{
+        width: 100%;
+        height:44px;
+        line-height: 44px;
+        overflow-x:scroll;
+        overflow-y:hidden;
+        background:#fff;
+        position:absolute;
+        top: 0;
+        left:0;
+        margin-bottom:44px;
+    }
+    .list{
+        width: 200%;
+        display: flex;
+
+    }
+    .list li{
+        flex:1;
+        text-align: center;
+        font-weight:600;
+        font-size:18px;
+    }
+    .list .red{
+        color:#EE7930;
+        font-weight:900;
+    }
+    .section{
+        width: 100%;
+        margin-top: 44px;
+    }
+    .swiper-slide img{
+        width: 100%;
+    }
+   .mian{
+        width: 100%;
+   }
+   .mian .tou{
+    width: 100%;
+    height:60px;
+    line-height: 60px;
+    padding-left: 15px;
+    font-size:20px;
+    font-weight:800;
+   }
+   .Second{
+    width: 100%;
+    display: flex;
+   }
+   .Second dl{
+    box-sizing:border-box;
+    padding:10px;
+    flex:1;
+   }
+   .Second dl dt{
+    width: 100%;
+   }
+   .Second dl dt img{
+    width: 100%;
+   }
+   .Second dl dd{
+    width: 100%;
+    line-height: 25px;
+   }
+   .Second dl dd p{
+    font-size:14px;
+    color:#aaa;
+   }
+</style>
+<body>
+    <header class="header">
+        <ul class="list">
+            <li class="red">精选</li>
+            <li>爱着</li>
+            <li>电视剧</li>
+            <li>电影</li>
+            <li>精选</li>
+            <li>爱着</li>
+            <li>电视剧</li>
+            <li>电影</li>
+        </ul>
+    </header>
+    <section class="section">
+         <div class="swiper-container">
+          <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="src/img/1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="src/img/2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="src/img/3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="src/img/1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="src/img/2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="src/img/3.jpg" alt=""></div>
+          </div>
+        </div>
+    </section>
+    <div class="mian">
+        <p class="tou">重磅热播</p>
+        <div class="Second">
+            <dl class="left">
+                <dt><img src="src/img/l.jpg" alt="" /></dt>
+                <dd>
+                    <h3>南方有乔木</h3>
+                    <p>南桥or安宁?陈伟霆难抉择</p>
+                </dd>
+            </dl>
+            <dl class="right">
+                <dt><img src="src/img/r.jpg" alt="" /></dt>
+                <dd>
+                    <h3>海上嫁女记</h3>
+                    <p>柴少芬变身谁谁亲妈？</p>
+                </dd>
+            </dl>
+
+        </div>
+    </div>
+    <div class="Second">
+            <dl class="left">
+                <dt><img src="src/img/l.jpg" alt="" /></dt>
+                <dd>
+                    <h3>南方有乔木</h3>
+                    <p>南桥or安宁?陈伟霆难抉择</p>
+                </dd>
+            </dl>
+            <dl class="right">
+                <dt><img src="src/img/r.jpg" alt="" /></dt>
+                <dd>
+                    <h3>海上嫁女记</h3>
+                    <p>柴少芬变身谁谁亲妈？</p>
+                </dd>
+            </dl>
+
+        </div>
+</body>
+<script src="src/js/swiper.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay: 1000
+    })
+</script>
+</html>
